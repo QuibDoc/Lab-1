@@ -8,6 +8,7 @@ import java.util.List;
 class MArray {
     // ArrayList<Feature> featureList;
     // ArrayList<ArrayList<DataItem>> data;
+    //test
     private MArray() {}
     public MArray(String fileName) {
         try {
