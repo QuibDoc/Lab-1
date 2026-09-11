@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Got rid of my first attempt as it didn't solve much and needed revising. Attempting to use try - catch blocks to determine the value of the given string">
+    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Almost got the Type checker working. Currently getting doubles of some numbers, so may move to a separate file to facilitate return values nad make it a method rather than tightly couping it into the MArray class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/StrNumCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788973818933</updated>
-      <workItem from="1788973820055" duration="4688000" />
+      <workItem from="1788973820055" duration="5489000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -110,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789161187798</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Almost got the Type checker working. Currently getting doubles of some numbers, so may move to a separate file to facilitate return values nad make it a method rather than tightly couping it into the MArray class">
+      <option name="closed" value="true" />
+      <created>1789161574810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789161574810</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +129,7 @@
     <MESSAGE value="Initial Commit test 2" />
     <MESSAGE value="Created new class which is responsible for displaying the datatype of the contents in teh cell." />
     <MESSAGE value="Got rid of my first attempt as it didn't solve much and needed revising. Attempting to use try - catch blocks to determine the value of the given string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got rid of my first attempt as it didn't solve much and needed revising. Attempting to use try - catch blocks to determine the value of the given string" />
+    <MESSAGE value="Almost got the Type checker working. Currently getting doubles of some numbers, so may move to a separate file to facilitate return values nad make it a method rather than tightly couping it into the MArray class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost got the Type checker working. Currently getting doubles of some numbers, so may move to a separate file to facilitate return values nad make it a method rather than tightly couping it into the MArray class" />
   </component>
 </project>

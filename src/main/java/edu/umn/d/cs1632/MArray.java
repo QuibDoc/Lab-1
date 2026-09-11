@@ -16,26 +16,13 @@ class MArray {
             List<String[]> allData = csvReader.readAll();
             for (String[] row : allData) {
                 for (String cell : row) {
-                    int stringCheck = 0;
-                    try {
-                        Integer.valueOf(cell);
+                    if(StrNumCheck.checkStrNum(cell).equals("(I)")){
                         System.out.print(cell + "(I) \t");
-                        stringCheck += 1;
-                    } catch (NumberFormatException e) {
-                    //dont stop the program if it doesnt work
-                    }
-
-                    try {
-                        Double.valueOf(cell);
+                    } else if(StrNumCheck.checkStrNum(cell).equals("(D)")){
                         System.out.print(cell + "(D) \t");
-                        stringCheck += 1;
-                    } catch (NumberFormatException e) {
-                        //dont stop the program if it doesnt work
-                    }
-                    if (!(stringCheck > 0)){
+                    } else {
                         System.out.print(cell + "(S) \t");
                     }
-
                 }
                 System.out.println();
             }
