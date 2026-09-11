@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Initial Commit test 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/cvsTypeReader.java" afterDir="false" />
+    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Created new class which is responsible for displaying the datatype of the contents in teh cell.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/cvsTypeReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788973818933</updated>
-      <workItem from="1788973820055" duration="1763000" />
+      <workItem from="1788973820055" duration="4366000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -94,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788974672840</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created new class which is responsible for displaying the datatype of the contents in teh cell.">
+      <option name="closed" value="true" />
+      <created>1788975697314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788975697314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Initial Commit test 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit test 2" />
+    <MESSAGE value="Created new class which is responsible for displaying the datatype of the contents in teh cell." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new class which is responsible for displaying the datatype of the contents in teh cell." />
   </component>
 </project>

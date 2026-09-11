@@ -16,7 +16,12 @@ class MArray {
             List<String[]> allData = csvReader.readAll();
             for (String[] row : allData) {
                 for (String cell : row) {
-                    System.out.print(cell + "\t");
+                    try {
+                        Integer.valueOf(cell);
+                        System.out.print(cell + "(I) \t");
+                    } catch (NumberFormatException e) {
+                    //dont stop the program if it doesnt work
+                    }
                 }
                 System.out.println();
             }
