@@ -4,6 +4,7 @@ import com.opencsv.CSVReader;
 
 import java.io.FileReader;
 import java.util.List;
+import java.util.Scanner;
 
 class MArray {
     // ArrayList<Feature> featureList;
@@ -26,9 +27,32 @@ class MArray {
                 }
                 System.out.println();
             }
+            //Query Function to allow the user
+            //to search row data types
+            query(allData);
         }
         catch (Exception e) {
             e.printStackTrace();
         }
+
     }
+
+    public void query(List<String[]> allData){
+        Scanner user = new Scanner(System.in);
+        String userInput = " ";
+
+        while (!(userInput.equals("Q"))){
+            System.out.println("Query? ");
+            userInput = user.nextLine();
+
+            String[] userCommand = userInput.split(" ");
+
+            if (true){
+
+            }
+        }
+    }
+
 }
+
+
