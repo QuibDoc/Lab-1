@@ -52,14 +52,13 @@ class MArray {
                 case "H" -> queryH(allData, userCommand);
                 case "V" -> queryV(allData, userCommand);
                 case "M" -> queryM(allData, userCommand);
-                default -> System.out.print("Command Not Recognized");
+                default -> System.out.println("Command Not Recognized");
             }
         }
     }
 
     //Shows the types of arrays in a horizontal line
-    public void queryH(List<String[]> allData, String[] userCommands) {
-        ;
+    public void queryV(List<String[]> allData, String[] userCommands) {
 
         int intCount = 0;
         int stringCount = 0;
@@ -69,14 +68,13 @@ class MArray {
 
             int colNum = Integer.parseInt(userCommands[1]);
             int rowMin = Integer.parseInt(userCommands[2]);
-            ;
             int rowMax = Integer.parseInt(userCommands[3]);
-            ;
 
             for (int i = 0; allData.size() - 1 > i; i++) {
                 String[] colArr = allData.get(i);
+                System.out.println(colArr[0]);
 
-                if (rowMin < i || i < rowMax) {
+                if (rowMin <= i && i <= rowMax) {
                     if (StrNumCheck.checkStrNum(colArr[colNum]).equals("(I)")) {
                         intCount++;
 
@@ -111,8 +109,55 @@ class MArray {
     }
 
     //Shows the types of data in a Vertical Line
-    public void queryV(List<String[]> allData, String[] userCommands) {
+    public void queryH(List<String[]> allData, String[] userCommands) {
 
+        int intCount = 0;
+        int stringCount = 0;
+        int doubleCount = 0;
+
+        if (checkUserCommand(userCommands)) {
+
+            int colNum = Integer.parseInt(userCommands[1]);
+            int colMin = Integer.parseInt(userCommands[2]);
+            int colMax = Integer.parseInt(userCommands[3]);
+
+            String[] colArr = allData.get(colNum);
+            System.out.println(colArr[0]);
+
+            for (int i = 0; colArr.length - 1> i; i++) {
+
+                if (colMin < i && colMax >= i) {
+                    if (StrNumCheck.checkStrNum(colArr[i]).equals("(I)")) {
+                        intCount++;
+
+                    } else if (StrNumCheck.checkStrNum(colArr[i]).equals("(D)")) {
+                        doubleCount++;
+
+                    } else if (StrNumCheck.checkStrNum(colArr[i]).equals("(S)")) {
+                        stringCount++;
+
+                    }
+                }
+            }
+
+            if (stringCount == 0 && doubleCount == 0) {
+                System.out.println("Integer");
+
+            } else if (stringCount == 0 && intCount == 0) {
+                System.out.println("Double");
+
+            } else if (intCount == 0 && doubleCount == 0) {
+                System.out.println("String");
+
+            } else {
+                System.out.println("Multi");
+
+            }
+
+
+        } else {
+            System.out.println("Command Not Recognised");
+        }
     }
 
     //Shows the types of data in a Submatrix of the original
