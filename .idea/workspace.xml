@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Created a query method that is called upon if the file is read successfully, and prompts the user to enter in their query. Still working on using the commands and displaying the data types in the queried cells.">
+    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Create multiple query methods for each command type along with a command checker to see if the users inputs are valid and won't crash the system.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" afterDir="false" />
@@ -97,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788973818933</updated>
-      <workItem from="1788973820055" duration="13615000" />
+      <workItem from="1788973820055" duration="17061000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -155,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789163894295</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create multiple query methods for each command type along with a command checker to see if the users inputs are valid and won't crash the system.">
+      <option name="closed" value="true" />
+      <created>1789248734660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789248734660</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +177,7 @@
     <MESSAGE value="Almost got the Type checker working. Currently getting doubles of some numbers, so may move to a separate file to facilitate return values nad make it a method rather than tightly couping it into the MArray class" />
     <MESSAGE value="Moved the String Number checker to its own file made gave it a static method that any class can use that will give a string back depending on what kind of type it is. Also modified to the MArray Class so that the information was printed to the screen" />
     <MESSAGE value="Created a query method that is called upon if the file is read successfully, and prompts the user to enter in their query. Still working on using the commands and displaying the data types in the queried cells." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a query method that is called upon if the file is read successfully, and prompts the user to enter in their query. Still working on using the commands and displaying the data types in the queried cells." />
+    <MESSAGE value="Create multiple query methods for each command type along with a command checker to see if the users inputs are valid and won't crash the system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create multiple query methods for each command type along with a command checker to see if the users inputs are valid and won't crash the system." />
   </component>
 </project>

@@ -41,9 +41,6 @@ class MArray {
     public void query(List<String[]> allData) {
         Scanner user = new Scanner(System.in);
         String userInput = " ";
-        int numInt;
-        int numDouble;
-        int numString;
 
         while (!(userInput.equals("Q"))) {
             System.out.print("Query? ");
@@ -62,46 +59,88 @@ class MArray {
 
     //Shows the types of arrays in a horizontal line
     public void queryH(List<String[]> allData, String[] userCommands) {
-        String[] Target = allData.get(Integer.parseInt(userCommands[1]));
+        ;
 
-        if (StrNumCheck.checkStrNum(userCommands[1]).equals("(I)")) {
-            int targetHorizontal = Integer.parseInt(userCommands[1]);
+        int intCount = 0;
+        int stringCount = 0;
+        int doubleCount = 0;
 
-            for (int i = Integer.parseInt(userCommands[1]); i < allData.size() - 1; i++) {
-                allData.get(0);
+        if (checkUserCommand(userCommands)) {
+
+            int colNum = Integer.parseInt(userCommands[1]);
+            int rowMin = Integer.parseInt(userCommands[2]);
+            ;
+            int rowMax = Integer.parseInt(userCommands[3]);
+            ;
+
+            for (int i = 0; allData.size() - 1 > i; i++) {
+                String[] colArr = allData.get(i);
+
+                if (rowMin < i || i < rowMax) {
+                    if (StrNumCheck.checkStrNum(colArr[colNum]).equals("(I)")) {
+                        intCount++;
+
+                    } else if (StrNumCheck.checkStrNum(colArr[colNum]).equals("(D)")) {
+                        doubleCount++;
+
+                    } else if (StrNumCheck.checkStrNum(colArr[colNum]).equals("(S)")) {
+                        stringCount++;
+
+                    }
+                }
             }
-        }else {
-            System.out.print("Command Not Recognised");
+
+            if (stringCount == 0 && doubleCount == 0) {
+                System.out.println("Integer");
+
+            } else if (stringCount == 0 && intCount == 0) {
+                System.out.println("Double");
+
+            } else if (intCount == 0 && doubleCount == 0) {
+                System.out.println("String");
+
+            } else {
+                System.out.println("Multi");
+
+            }
+
+
+        } else {
+            System.out.println("Command Not Recognised");
         }
     }
+
     //Shows the types of data in a Vertical Line
-    public void queryV (List < String[]>allData, String[]userCommands){
+    public void queryV(List<String[]> allData, String[] userCommands) {
 
     }
 
     //Shows the types of data in a Submatrix of the original
-    public void queryM (List < String[]>allData, String[]userCommands){
+    public void queryM(List<String[]> allData, String[] userCommands) {
 
     }
 
-    public boolean checkUserCommand (String[] userCommands) {
+    public boolean checkUserCommand(String[] userCommands) {
+        //Checks if the command is long enough
+        if (userCommands.length >= 4) {
+            // Checks if the first index of the array is a string
+            if (userCommands[0].equals("H") || userCommands[0].equals("V") ||
+                    userCommands[0].equals("M")) {
 
-        // Checks if the first index of the array is a string
-        if (userCommands[0].equals("H") ||
-                userCommands[0].equals("V") ||
-                userCommands[0].equals("M")) {
+                // Checks if the following numbers are
+                // considered Integers
+                for (int i = 1; i < userCommands.length - 1; i++) {
 
-            // Checks if the following numbers are
-            // considered Integers
-            for (int i = 1; i < userCommands.length - 1; i++) {
-                if (StrNumCheck.checkStrNum(userCommands[i]).equals(("(I)"))
-                        || userCommands[i] == null) {
-                    return false;
+                    if (!StrNumCheck.checkStrNum(userCommands[i]).equals(("(I)"))
+                            || userCommands[i] == null) {
+                        return false;
+                    }
                 }
+                return true;
             }
-            return true;
+            return false;
         }
-        return false;
+    return false;
     }
 
 }
