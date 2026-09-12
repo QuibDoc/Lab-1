@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Moved the String Number checker to its own file made gave it a static method that any class can use that will give a string back depending on what kind of type it is. Also modified to the MArray Class so that the information was printed to the screen">
+    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Created a query method that is called upon if the file is read successfully, and prompts the user to enter in their query. Still working on using the commands and displaying the data types in the queried cells.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.umn.d.cs1632.Main" />
+      <module name="ReadMArray" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.umn.d.cs1632.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788973818933</updated>
-      <workItem from="1788973820055" duration="6462000" />
+      <workItem from="1788973820055" duration="13615000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -125,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789162477277</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created a query method that is called upon if the file is read successfully, and prompts the user to enter in their query. Still working on using the commands and displaying the data types in the queried cells.">
+      <option name="closed" value="true" />
+      <created>1789163894295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789163894295</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +168,7 @@
     <MESSAGE value="Got rid of my first attempt as it didn't solve much and needed revising. Attempting to use try - catch blocks to determine the value of the given string" />
     <MESSAGE value="Almost got the Type checker working. Currently getting doubles of some numbers, so may move to a separate file to facilitate return values nad make it a method rather than tightly couping it into the MArray class" />
     <MESSAGE value="Moved the String Number checker to its own file made gave it a static method that any class can use that will give a string back depending on what kind of type it is. Also modified to the MArray Class so that the information was printed to the screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved the String Number checker to its own file made gave it a static method that any class can use that will give a string back depending on what kind of type it is. Also modified to the MArray Class so that the information was printed to the screen" />
+    <MESSAGE value="Created a query method that is called upon if the file is read successfully, and prompts the user to enter in their query. Still working on using the commands and displaying the data types in the queried cells." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a query method that is called upon if the file is read successfully, and prompts the user to enter in their query. Still working on using the commands and displaying the data types in the queried cells." />
   </component>
 </project>
