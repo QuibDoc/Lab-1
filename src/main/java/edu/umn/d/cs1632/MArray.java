@@ -132,6 +132,9 @@ class MArray {
             typeTotalChecker(intCount, stringCount, doubleCount);
 
 
+        } else if (userCommands[0].equals("Q")){
+            //Quites application
+            System.out.println();
         } else {
             System.out.println("Command Not Recognised");
         }

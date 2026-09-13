@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Completed final query function and added extra comments to increase readability for other collaborators. Also made a separate method for checking the total types counted in the query methods, as to reduce clutter and increase readability." />
+    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Got rid of redundant print to screen code from testing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788973818933</updated>
-      <workItem from="1788973820055" duration="21392000" />
+      <workItem from="1788973820055" duration="23075000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -184,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789263002350</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Got rid of redundant print to screen code from testing">
+      <option name="closed" value="true" />
+      <created>1789263110301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1789263110301</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +213,7 @@
     <MESSAGE value="Completed queryH method, allowing the user to pick a horizonal row and ask which datatype the values in a certain section are. Also fixed a problem where if the user inputted too few commands the system would crash by updating the checkUseCommand method to also check the length of the user command list. I will now being putting the final touches on the last two query methods" />
     <MESSAGE value="FINALLY, fixed my query H and V methods, as their functions were swaped, so now it is working perfectly. I will now finish working on query M which will look at a subsection of the array and evaluate its types." />
     <MESSAGE value="Completed final query function and added extra comments to increase readability for other collaborators. Also made a separate method for checking the total types counted in the query methods, as to reduce clutter and increase readability." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed final query function and added extra comments to increase readability for other collaborators. Also made a separate method for checking the total types counted in the query methods, as to reduce clutter and increase readability." />
+    <MESSAGE value="Got rid of redundant print to screen code from testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got rid of redundant print to screen code from testing" />
   </component>
 </project>
