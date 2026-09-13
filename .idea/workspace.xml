@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Completed queryH method, allowing the user to pick a horizonal row and ask which datatype the values in a certain section are. Also fixed a problem where if the user inputted too few commands the system would crash by updating the checkUseCommand method to also check the length of the user command list. I will now being putting the final touches on the last two query methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="FINALLY, fixed my query H and V methods, as their functions were swaped, so now it is working perfectly. I will now finish working on query M which will look at a subsection of the array and evaluate its types.">
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -97,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788973818933</updated>
-      <workItem from="1788973820055" duration="18409000" />
+      <workItem from="1788973820055" duration="20575000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -171,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789252280409</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="FINALLY, fixed my query H and V methods, as their functions were swaped, so now it is working perfectly. I will now finish working on query M which will look at a subsection of the array and evaluate its types.">
+      <option name="closed" value="true" />
+      <created>1789253734845</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1789253734845</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +194,7 @@
     <MESSAGE value="Created a query method that is called upon if the file is read successfully, and prompts the user to enter in their query. Still working on using the commands and displaying the data types in the queried cells." />
     <MESSAGE value="Create multiple query methods for each command type along with a command checker to see if the users inputs are valid and won't crash the system." />
     <MESSAGE value="Completed queryH method, allowing the user to pick a horizonal row and ask which datatype the values in a certain section are. Also fixed a problem where if the user inputted too few commands the system would crash by updating the checkUseCommand method to also check the length of the user command list. I will now being putting the final touches on the last two query methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed queryH method, allowing the user to pick a horizonal row and ask which datatype the values in a certain section are. Also fixed a problem where if the user inputted too few commands the system would crash by updating the checkUseCommand method to also check the length of the user command list. I will now being putting the final touches on the last two query methods" />
+    <MESSAGE value="FINALLY, fixed my query H and V methods, as their functions were swaped, so now it is working perfectly. I will now finish working on query M which will look at a subsection of the array and evaluate its types." />
+    <option name="LAST_COMMIT_MESSAGE" value="FINALLY, fixed my query H and V methods, as their functions were swaped, so now it is working perfectly. I will now finish working on query M which will look at a subsection of the array and evaluate its types." />
   </component>
 </project>
