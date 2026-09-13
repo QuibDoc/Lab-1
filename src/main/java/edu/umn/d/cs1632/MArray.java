@@ -75,7 +75,6 @@ class MArray {
 
             for (int i = 0; allData.size() - 1 > i; i++) {
                 String[] colArr = allData.get(i);
-                System.out.println(colArr[0]);
 
                 if (rowMin <= i && i <= rowMax) {
                     if (StrNumCheck.checkStrNum(colArr[colNum]).equals("(I)")) {
@@ -113,7 +112,6 @@ class MArray {
             int colMax = Integer.parseInt(userCommands[3]);
 
             String[] colArr = allData.get(colNum);
-            System.out.println(colArr[0]);
 
             for (int i = 0; colArr.length - 1 > i; i++) {
 
