@@ -55,6 +55,8 @@ class MArray {
                 case "H" -> queryH(allData, userCommand);
                 case "V" -> queryV(allData, userCommand);
                 case "M" -> queryM(allData, userCommand);
+                // Quits the application
+                case "Q"  -> System.out.print(" ");
                 default -> System.out.println("Command Not Recognized");
             }
         }
@@ -131,10 +133,6 @@ class MArray {
 
             typeTotalChecker(intCount, stringCount, doubleCount);
 
-
-        } else if (userCommands[0].equals("Q")){
-            //Quites application
-            System.out.println();
         } else {
             System.out.println("Command Not Recognised");
         }

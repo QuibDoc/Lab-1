@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Got rid of redundant print to screen code from testing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e4128a0-c714-4d9f-acfc-a43e4c18d240" name="Changes" comment="Fixed but where typing Q would show Command not recognised but still recognise the command and quit the application.">
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umn/d/cs1632/MArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/umn/d/cs1632/MArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788973818933</updated>
-      <workItem from="1788973820055" duration="23075000" />
+      <workItem from="1788973820055" duration="23375000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -195,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789263110301</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixed but where typing Q would show Command not recognised but still recognise the command and quit the application.">
+      <option name="closed" value="true" />
+      <created>1789264781802</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1789264781802</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +222,7 @@
     <MESSAGE value="FINALLY, fixed my query H and V methods, as their functions were swaped, so now it is working perfectly. I will now finish working on query M which will look at a subsection of the array and evaluate its types." />
     <MESSAGE value="Completed final query function and added extra comments to increase readability for other collaborators. Also made a separate method for checking the total types counted in the query methods, as to reduce clutter and increase readability." />
     <MESSAGE value="Got rid of redundant print to screen code from testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got rid of redundant print to screen code from testing" />
+    <MESSAGE value="Fixed but where typing Q would show Command not recognised but still recognise the command and quit the application." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed but where typing Q would show Command not recognised but still recognise the command and quit the application." />
   </component>
 </project>
